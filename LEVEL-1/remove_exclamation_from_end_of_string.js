@@ -8,16 +8,16 @@ function remove(s){
 
 // Sol 2
 
-// function remove(s){
-//   //coding and coding....
+function remove(s){
+  //coding and coding....
  
-//   if(s.charAt(s.length - 1) === '!') {
-//     return s.substring(0, s.length - 1);
-//   } else {
-//     return s;
-//   } 
-// }
+  if(s.charAt(s.length - 1) === '!') {
+    return s.substring(0, s.length - 1);
+  } else {
+    return s;
+  } 
+}
 
 /**
- 
+ Remove last exclamation from string
  */
