@@ -1,6 +1,5 @@
-function findEvenIndex(arr)
-{
-var sum = 0,
+function findEvenIndex(arr) {
+  var sum = 0,
     leftSum = 0;
 
   for (var i = 0; i < arr.length; i++) {
@@ -18,5 +17,5 @@ var sum = 0,
   }
 
   return -1;
-  
+
 }

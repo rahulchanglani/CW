@@ -6,6 +6,8 @@ function product(s){
   return excs * ques
 }
 
+///// SYNTAX --- string.split(separator, limit)
+
 // Sol 2
 
 function product(s) {
