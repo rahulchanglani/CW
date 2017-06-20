@@ -1,3 +1,20 @@
+// sol 1
+
+function DNAStrand(dna) {
+  return dna.replace(/./g, function(c) {
+    return DNAStrand.pairs[c]
+  })
+}
+
+DNAStrand.pairs = {
+  A: 'T',
+  T: 'A',
+  C: 'G',
+  G: 'C',
+}
+
+// sol 2
+
 function DNAStrand(dna){
   return dna
         .concat("||TACG")
