@@ -36,6 +36,9 @@ function declareWinner(f1,f2,first) {
 
 
 /*
+
+level 7 kyu
+
 Test.describe("Example Test Cases", function(){
 	
 	Test.assertEquals(declareWinner(new Fighter("Lew", 10, 2), new Fighter("Harry", 5, 4), "Lew"), "Lew");
