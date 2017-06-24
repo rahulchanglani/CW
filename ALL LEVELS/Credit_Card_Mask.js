@@ -1,12 +1,19 @@
 // sol 1
 
+
+function maskify(cc) {
+  return cc.slice(0, -4).replace(/./g, '#') + cc.slice(-4);
+}
+
+// sol 2
+
 function maskify(cc) {
   return cc.replace(/.(?=.{4})/g, "#");
 }
 
 
 
-// sol 2
+// sol 3
 
 function maskify(cc) {
   if (cc.length >= 4) {
