@@ -1,3 +1,16 @@
+// sol 1
+
+function isTriangle(a,b,c)
+{
+   return a + b > c && a + c > b && c + b > a;
+}
+
+
+
+// sol 2
+
+
+
 function isTriangle(a,b,c)
 {
    if (a+b<=c || a+c<=b || b+c<=a) {
@@ -6,7 +19,6 @@ function isTriangle(a,b,c)
     return true;
   }
 }
-
 
 /*
 
