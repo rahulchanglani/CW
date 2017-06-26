@@ -1,7 +1,7 @@
 // sol 1
 
 var gimme = function (inputArray) {
-  return a.indexOf(a.concat().sort(function(a, b) { return a - b })[1])
+  return inputArray.indexOf(inputArray.concat().sort(function(a, b) { return a - b })[1])
 };
 
 // sol 2 - my sol
@@ -17,6 +17,9 @@ var gimme = function (inputArray) {
 
 
 /*
+
+level 7 
+
 As a part of this Kata, you need to create a function that when provided with a triplet, returns the index of the numerical element that lies between the other two elements.
 
 The input to the function will be an array of three distinct numbers (Haskell: a tuple).
