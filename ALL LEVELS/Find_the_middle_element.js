@@ -4,7 +4,13 @@ var gimme = function (inputArray) {
   return inputArray.indexOf(inputArray.concat().sort(function(a, b) { return a - b })[1])
 };
 
-// sol 2 - my sol
+// sol 2
+
+var gimme = function (inputArray) {
+  return inputArray.indexOf(inputArray.slice(0).sort(function(a,b) { return a-b; })[1]);
+};
+
+// sol 3 - my sol
 
 var gimme = function (inputArray) {
   //deep copy input array into another array var
