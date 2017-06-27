@@ -1,5 +1,13 @@
 // Sol 1
 
+var number = function(busStops){
+  return busStops.reduce(function(rem, [i, o]) {
+    return rem + i - o;
+  }, 0);
+}
+
+// Sol 2
+
 var number = function(busStops){ 
   var people = 0;
   busStops.forEach(function (stop) {
@@ -10,10 +18,6 @@ var number = function(busStops){
   return people;
 }
 
-
-// Sol 2
-
-const number = (busStops) => busStops.reduce((rem, [on, off]) => rem + on - off, 0);
 
 /*
 Number of people in the bus
