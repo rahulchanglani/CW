@@ -1,3 +1,12 @@
+// best sol
+
+function validatePIN(pin) {
+  return /^(\d{4}|\d{6})$/.test(pin)
+}
+
+
+// my sol
+
 function validatePIN (pin) {
   var format = /[ A-Za-z!@#$%^&*()_+\-=\[\]{};'`:"\\|,.<>\/?]/;
   return isNaN(parseInt(pin)) == false && (pin.length == 4 || pin.length == 6) && format.test(pin) == false ? true : false;
